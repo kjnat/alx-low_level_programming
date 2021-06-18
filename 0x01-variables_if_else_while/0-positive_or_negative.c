@@ -2,23 +2,22 @@
 #include <stdio.h>
 #include <time.h>
 
-/** checking for positive and negative
- *
- *
+/** 
+ * my_function - This is a description
  */
-
-/* int main begins the code execution
- *
- * Result: 0 is for success
- */
-
 int main(void)
 {
   int n;
-
+  
   srand(time(0));
   n = rand() - RAND_MAX / 2;
 
+/**
+ * is_positive - if the number is greater than 0
+ *
+ * is_zero - if the number is 0
+ */
+ 
   if ( n > 0 ) {
     printf("is positive\n" );
   } else if ( n == 0 ) {
@@ -26,5 +25,5 @@ int main(void)
   } else {
     printf("is negative\n" );
   }
-   return (0);
+  return (0);
 }
