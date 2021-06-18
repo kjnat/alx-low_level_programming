@@ -2,9 +2,15 @@
 #include <stdio.h>
 #include <time.h>
 
-/* checking for positive and negative */
+/** checking for positive and negative
+ *
+ *
+ */
 
-/* int main begins the code execution */
+/* int main begins the code execution
+ *
+ * Result: 0 is for success
+ */
 
 int main(void)
 {
@@ -14,11 +20,11 @@ int main(void)
   n = rand() - RAND_MAX / 2;
 
   if ( n > 0 ) {
-     printf("n is positive\n" );
+     printf("is positive\n" );
   } else if ( n == 0 ) {
-      printf("n is zero\n" );
+      printf("is zero\n" );
   } else {
-      printf("n is negative\n" );
+      printf("is negative\n" );
   }
    return (0);
 }
