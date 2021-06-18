@@ -3,7 +3,7 @@
 #include <time.h>
 
 /** 
- * Function_name - function of n
+ * main - function to run code
  *
  * Description - checking for positivity or negativity
  *
