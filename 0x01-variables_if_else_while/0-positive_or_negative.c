@@ -3,7 +3,11 @@
 #include <time.h>
 
 /** 
- * my_function - This is a description
+ * Function_name - function of n
+ *
+ * Description - checking for positivity or negativity
+ *
+ * Return: 0
  */
 int main(void)
 {
