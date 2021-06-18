@@ -1,13 +1,13 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
-/** 
- * main - function to run code
- * Description - checking for positivity or negativit
- * Return: 0
- */
-int main(void)
-{
+ #include <stdlib.h>
+ #include <stdio.h>
+ #include <time.h>
+ /** 
+  * main - function to run code
+  * Description - checking for positivity or negativit
+  * Return: 0
+  */
+ int main(void)
+ {
          int n;
   
          srand(time(0));
@@ -25,4 +25,4 @@ int main(void)
              printf("%d is zero\n",n);
          }
          return 0;
-}
+ }
