@@ -11,26 +11,21 @@
  */
 int main(void)
 {
-  int n;
+         int n;
   
-  srand(time(0));
-  n = rand() - RAND_MAX / 2;
-
-/**
- * is_positive - if the number is greater than 0
- *
- * is_zero - if the number is 0
- */
- 
-  if ( n > 0 ) {
-    printf( "is positive\n" );
-  } else if ( n < 0 ) {
-    printf( "is negative\n" );
-  } else if ( n == 0) {
-    printf( "is zero\n" );
-  } else {
-    printf( "invalid\n" );
-  }
-  return 0;
-  
+         srand(time(0));
+         n = rand() - RAND_MAX / 2; 
+         if ( n > 0 )
+	 {
+             printf( "%d is positive\n",n );
+         }
+	 else if ( n < 0 )
+	 {
+             printf( "%d is negative\n",n );
+         }
+	 else if ( n == 0)
+	 {
+             printf( "%d is zero\n",n );
+         }
+         return 0;
 }
