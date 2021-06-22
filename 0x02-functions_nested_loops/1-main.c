@@ -1,9 +1,8 @@
-#include <unistd.h>
 #include "holberton.h"
 /**
- * main - Check he code for ALX School projects
+ * main - check the code for AlX School students.
  *
- * Return: Always 0
+ * Return: Always 0.
  */
 int main(void)
 {
