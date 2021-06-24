@@ -24,6 +24,5 @@ else
 {
 largest = a;
 }
-
 return (largest);
 }
