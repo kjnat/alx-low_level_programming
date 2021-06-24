@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * int mul - Multiplies two integers.
+ * mul - Multiplies two integers.
  * @a: First integer.
  * @b: Second integer
  * Return: Multiplication
