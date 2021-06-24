@@ -1,5 +1,5 @@
-#ifndef  _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef  _holberton_h_
+#define _holberton_h_
 
 #include <stdio.h>
 
