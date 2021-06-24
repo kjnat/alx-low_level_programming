@@ -8,17 +8,17 @@
  */
 int _upper(int c)
 {
-int i = 'A';
+	int i = 'A';
 
-for (i = 'A'; i <= 'Z'; i++)
-{
-if (c == i)
-{
-return (1);
-}
-else if
-{
-  return (0);
-}
-}
+	for (i = 'A'; i <= 'Z'; i++)
+	{
+		if (c == i)
+		{
+			return (1);
+		}
+		else if
+		{
+  			return (0);
+		}
+	}
 }
