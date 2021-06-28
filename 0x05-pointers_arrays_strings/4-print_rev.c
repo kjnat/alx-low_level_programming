@@ -13,7 +13,7 @@ void print_rev(char *s)
         {                                                                                                                                  
                 if (s[count] == '\0')                                                                                                      
                 {                                                                                                                          
-                        _putchar('\n');                                                                                                    
+                        print_rev('\n');                                                                                                    
                         break;                                                                                                             
                 }                                                                                                                          
                 print_rev(s[count]);                                                                                                       
