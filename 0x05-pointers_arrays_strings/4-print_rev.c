@@ -11,12 +11,11 @@ void print_rev(char *s)
                                                                                                                                            
         while (count >= 0)                                                                                                                 
         {                                                                                                                                  
-                if (s[count] == '\0')                                                                                                      
-                {                                                                                                                          
-                        print_rev('\n');                                                                                                    
-                        break;                                                                                                             
-                }                                                                                                                          
-                print_rev(s[count]);                                                                                                       
-                count++;                                                                                                                   
-        }                                                                                                                                  
+                if (s[count] == '\0')                                                                                                                                                                                                                              
+                        break; 
+                count++;                                                                                                                                                                                                                                               
+        }
+       for (count--; count >= 0; count--)
+                _putchar(s[count]);
+       _putchar('\n');
 }           
