@@ -6,11 +6,10 @@
  */
 void reset_to_98(int *n)
 {
-int ch;
 int var = 98;
 int *n;
 
 n = &var;
-n = ch
-putchar(ch);
+putchar(n);
+Return (0);
 }
