@@ -7,15 +7,11 @@
  */
 void puts2(char *str)
 {
-	int count = 0, i;
+	int count = 0;
 
 	while (count >= 0)
 	{
-		if (str[count] == '\0')
-			break;
-		count++;
+		
 	}
-  for (i = 0; i <= count; i+=2)
-    puts(str[count]);
-  puts('\n');
+  
 }
