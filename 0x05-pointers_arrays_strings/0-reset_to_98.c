@@ -1,7 +1,8 @@
 #include "holberton.h"
+
 /**
  * reset_to_98 - function that takes a pointer to an int parameter
- * @n - variable pointer to int parameter
+ * @n - input integer
  * Return: no return
  */
 void reset_to_98(int *n)
