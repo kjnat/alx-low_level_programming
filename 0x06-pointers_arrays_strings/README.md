@@ -1,0 +1,1 @@
+Pointers, arrays and strings in directory 0x06
