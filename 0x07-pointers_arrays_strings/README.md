@@ -1,0 +1,1 @@
+Again on pointers, double pointers, arrays and strings
